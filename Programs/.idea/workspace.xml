@@ -32,11 +32,14 @@
   </component>
   <component name="PropertiesComponent"><![CDATA[{
   "keyToString": {
+    "Application.ArmstrongNumber.executor": "Run",
+    "Application.Calculator.executor": "Run",
     "Application.CaseCheck.executor": "Run",
     "Application.Conditionals.executor": "Run",
     "Application.CountNums.executor": "Run",
     "Application.Fibo.executor": "Debug",
     "Application.Largest.executor": "Run",
+    "Application.PrimeNumber.executor": "Debug",
     "Application.Reverse.executor": "Run",
     "RunOnceActivity.ShowReadmeOnStart": "true",
     "git-widget-placeholder": "main",
@@ -108,6 +111,11 @@
           <url>file://$PROJECT_DIR$/CountNums.java</url>
           <line>5</line>
           <option name="timeStamp" value="15" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/PrimeNumber.java</url>
+          <line>10</line>
+          <option name="timeStamp" value="17" />
         </line-breakpoint>
       </breakpoints>
     </breakpoint-manager>

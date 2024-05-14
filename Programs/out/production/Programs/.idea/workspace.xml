@@ -32,11 +32,13 @@
   </component>
   <component name="PropertiesComponent"><![CDATA[{
   "keyToString": {
+    "Application.Calculator.executor": "Run",
     "Application.CaseCheck.executor": "Run",
     "Application.Conditionals.executor": "Run",
     "Application.CountNums.executor": "Run",
     "Application.Fibo.executor": "Debug",
     "Application.Largest.executor": "Run",
+    "Application.PrimeNumber.executor": "Run",
     "Application.Reverse.executor": "Run",
     "RunOnceActivity.ShowReadmeOnStart": "true",
     "git-widget-placeholder": "main",
