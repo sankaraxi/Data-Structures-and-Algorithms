@@ -4,6 +4,8 @@
     <modules>
       <module fileurl="file://$PROJECT_DIR$/Arrarys/Arrarys.iml" filepath="$PROJECT_DIR$/Arrarys/Arrarys.iml" />
       <module fileurl="file://$PROJECT_DIR$/Arrarys/BinarySearch/BinarySearch.iml" filepath="$PROJECT_DIR$/Arrarys/BinarySearch/BinarySearch.iml" />
+      <module fileurl="file://$PROJECT_DIR$/Arrarys/BubbleSort/BubbleSort.iml" filepath="$PROJECT_DIR$/Arrarys/BubbleSort/BubbleSort.iml" />
+      <module fileurl="file://$PROJECT_DIR$/Arrarys/BubbleSortJava/BubbleSortJava.iml" filepath="$PROJECT_DIR$/Arrarys/BubbleSortJava/BubbleSortJava.iml" />
       <module fileurl="file://$PROJECT_DIR$/.idea/DSA.iml" filepath="$PROJECT_DIR$/.idea/DSA.iml" />
       <module fileurl="file://$PROJECT_DIR$/Arrarys/LinearSearch/LinearSearch.iml" filepath="$PROJECT_DIR$/Arrarys/LinearSearch/LinearSearch.iml" />
       <module fileurl="file://$PROJECT_DIR$/Arrarys/Problems/Problems.iml" filepath="$PROJECT_DIR$/Arrarys/Problems/Problems.iml" />
