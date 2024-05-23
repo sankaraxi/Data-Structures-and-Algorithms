@@ -1,7 +1,4 @@
 import java.util.Arrays;
-
-//TIP To <b>Run</b> code, press <shortcut actionId="Run"/> or
-// click the <icon src="AllIcons.Actions.Execute"/> icon in the gutter.
 public class SelectionSort {
     public static void main(String[] args) {
         int[] arr ={9,4,2,5,1,7,3,0,6,8};

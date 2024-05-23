@@ -6,11 +6,13 @@
       <module fileurl="file://$PROJECT_DIR$/Arrarys/BinarySearch/BinarySearch.iml" filepath="$PROJECT_DIR$/Arrarys/BinarySearch/BinarySearch.iml" />
       <module fileurl="file://$PROJECT_DIR$/Arrarys/BubbleSort/BubbleSort.iml" filepath="$PROJECT_DIR$/Arrarys/BubbleSort/BubbleSort.iml" />
       <module fileurl="file://$PROJECT_DIR$/Arrarys/BubbleSortJava/BubbleSortJava.iml" filepath="$PROJECT_DIR$/Arrarys/BubbleSortJava/BubbleSortJava.iml" />
+      <module fileurl="file://$PROJECT_DIR$/Arrarys/CyclicSort/CyclicSort.iml" filepath="$PROJECT_DIR$/Arrarys/CyclicSort/CyclicSort.iml" />
       <module fileurl="file://$PROJECT_DIR$/.idea/DSA.iml" filepath="$PROJECT_DIR$/.idea/DSA.iml" />
       <module fileurl="file://$PROJECT_DIR$/Arrarys/InsertionSort/InsertionSort.iml" filepath="$PROJECT_DIR$/Arrarys/InsertionSort/InsertionSort.iml" />
       <module fileurl="file://$PROJECT_DIR$/Arrarys/LinearSearch/LinearSearch.iml" filepath="$PROJECT_DIR$/Arrarys/LinearSearch/LinearSearch.iml" />
       <module fileurl="file://$PROJECT_DIR$/Arrarys/Problems/Problems.iml" filepath="$PROJECT_DIR$/Arrarys/Problems/Problems.iml" />
       <module fileurl="file://$PROJECT_DIR$/Arrarys/BinarySearch/ProblemsBS/ProblemsBS.iml" filepath="$PROJECT_DIR$/Arrarys/BinarySearch/ProblemsBS/ProblemsBS.iml" />
+      <module fileurl="file://$PROJECT_DIR$/Arrarys/CyclicSort/ProblemsCS/ProblemsCS.iml" filepath="$PROJECT_DIR$/Arrarys/CyclicSort/ProblemsCS/ProblemsCS.iml" />
       <module fileurl="file://$PROJECT_DIR$/Arrarys/LinearSearch/ProblemsLS/ProblemsLS.iml" filepath="$PROJECT_DIR$/Arrarys/LinearSearch/ProblemsLS/ProblemsLS.iml" />
       <module fileurl="file://$PROJECT_DIR$/Arrarys/SelectionSort/SelectionSort.iml" filepath="$PROJECT_DIR$/Arrarys/SelectionSort/SelectionSort.iml" />
     </modules>
