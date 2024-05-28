@@ -14,6 +14,8 @@
       <module fileurl="file://$PROJECT_DIR$/Arrarys/BinarySearch/ProblemsBS/ProblemsBS.iml" filepath="$PROJECT_DIR$/Arrarys/BinarySearch/ProblemsBS/ProblemsBS.iml" />
       <module fileurl="file://$PROJECT_DIR$/Arrarys/CyclicSort/ProblemsCS/ProblemsCS.iml" filepath="$PROJECT_DIR$/Arrarys/CyclicSort/ProblemsCS/ProblemsCS.iml" />
       <module fileurl="file://$PROJECT_DIR$/Arrarys/LinearSearch/ProblemsLS/ProblemsLS.iml" filepath="$PROJECT_DIR$/Arrarys/LinearSearch/ProblemsLS/ProblemsLS.iml" />
+      <module fileurl="file://$PROJECT_DIR$/Recursion/ProblemsRecursion/ProblemsRecursion.iml" filepath="$PROJECT_DIR$/Recursion/ProblemsRecursion/ProblemsRecursion.iml" />
+      <module fileurl="file://$PROJECT_DIR$/Recursion/Recursion.iml" filepath="$PROJECT_DIR$/Recursion/Recursion.iml" />
       <module fileurl="file://$PROJECT_DIR$/Arrarys/SelectionSort/SelectionSort.iml" filepath="$PROJECT_DIR$/Arrarys/SelectionSort/SelectionSort.iml" />
       <module fileurl="file://$PROJECT_DIR$/Strings/Strings.iml" filepath="$PROJECT_DIR$/Strings/Strings.iml" />
     </modules>
