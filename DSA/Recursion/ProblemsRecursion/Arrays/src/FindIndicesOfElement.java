@@ -19,16 +19,5 @@ public class FindIndicesOfElement {
         findAllIndex(arr, target, index+1);
     }
 
-    //returning an array list
-//    static ArrayList<Integer> findAllIndex(int[] arr, int target, int index, ArrayList<Integer> list){
-//
-//        if (index == arr.length){
-//            return list;
-//        }
-//        if ( target == arr[index]){
-//            list.add(index);
-//        }
-//        findAllIndex(arr, target, index+1);
-//    }
 
 }
