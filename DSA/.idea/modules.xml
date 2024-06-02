@@ -3,6 +3,7 @@
   <component name="ProjectModuleManager">
     <modules>
       <module fileurl="file://$PROJECT_DIR$/Arrarys/Arrarys.iml" filepath="$PROJECT_DIR$/Arrarys/Arrarys.iml" />
+      <module fileurl="file://$PROJECT_DIR$/Recursion/ProblemsRecursion/Arrays/Arrays.iml" filepath="$PROJECT_DIR$/Recursion/ProblemsRecursion/Arrays/Arrays.iml" />
       <module fileurl="file://$PROJECT_DIR$/Arrarys/BinarySearch/BinarySearch.iml" filepath="$PROJECT_DIR$/Arrarys/BinarySearch/BinarySearch.iml" />
       <module fileurl="file://$PROJECT_DIR$/Arrarys/BubbleSort/BubbleSort.iml" filepath="$PROJECT_DIR$/Arrarys/BubbleSort/BubbleSort.iml" />
       <module fileurl="file://$PROJECT_DIR$/Arrarys/BubbleSortJava/BubbleSortJava.iml" filepath="$PROJECT_DIR$/Arrarys/BubbleSortJava/BubbleSortJava.iml" />
