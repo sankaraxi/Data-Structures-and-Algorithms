@@ -6,13 +6,13 @@ public class BinarySearch {
         System.out.println(ans);
 
     }
-    //retrun the index
+    //return the index of the target element if found
     // return -1 if does not exist
     static int binarySearch(int [] arr, int target){
         int start = 0;
         int end = arr.length-1;
 
-        while (start <= end){
+        while (start <= end){ // start must be always less than end
 //            int mid = (start + end) /2; //this formula may exceeds the integer range if the the values are larger
             int mid  = start + (end - start)/2; // (2start + end - start)/2; gives the optimised mid value
 

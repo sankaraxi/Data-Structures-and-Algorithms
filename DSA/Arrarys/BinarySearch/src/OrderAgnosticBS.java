@@ -11,7 +11,7 @@ public class OrderAgnosticBS {
         int end = arr.length-1;
 
         //find whether the array is sorted in ascending or descending
-        boolean isAsc = arr[start] < arr[end];
+        boolean isAsc = arr[start] < arr[end]; // assigns true if array is sorted in ascending otherwise false
       /*
         if (arr[start] < arr[end]){
             isAsc = true;
@@ -27,13 +27,13 @@ public class OrderAgnosticBS {
                 //ans found
                 return mid;
             }
-            if (isAsc){
+            if (isAsc){ // for ascending ordered array
                 if (target < arr[mid]){
                     end = mid - 1;
                 } else {
                     start = mid + 1;
                 }
-            }else{
+            }else{// for descending ordered array
                 if (target > arr[mid]){
                     end = mid - 1;
                 } else {

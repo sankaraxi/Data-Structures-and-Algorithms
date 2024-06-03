@@ -1,6 +1,6 @@
 public class CountRotations {
     public static void main(String[] args) {
-        // to the number the rotations in the rotated array
+        // to find the number of rotations in the rotated array
         int[] arr = {4,5,6,7,0,1,2,3};
         System.out.println(findPivot(arr));
         int target = 1;
