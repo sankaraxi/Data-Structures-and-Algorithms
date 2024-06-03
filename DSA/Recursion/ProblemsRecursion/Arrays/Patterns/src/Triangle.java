@@ -15,7 +15,7 @@ public class Triangle {
             triangle(row-1,0);
         }
     }
-    //printing normal triangle
+    //printing normal right triangle
     static void triangle2(int row, int col){
         if (row==0){
             return;
@@ -29,5 +29,5 @@ public class Triangle {
             System.out.println();
 
         }
-    }
+    }// this line is for git hub
 }
