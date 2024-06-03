@@ -16,7 +16,7 @@ public class FindAnElement {
         }
         return -1;
     }
-    //using recrsion
+    //using recursion
     //finding whether an element exist
     static boolean linearSearch1(int[] arr, int target,int index){
         if (index == arr.length){ //base condition

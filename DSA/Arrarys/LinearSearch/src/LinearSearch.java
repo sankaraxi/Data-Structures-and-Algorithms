@@ -29,7 +29,7 @@ public class LinearSearch {
             return -1;
         }
 
-        for (int i : arr) {
+        for (int i : arr) { // traversing an array using a for each element loop
             if (i == target) {
                 return i;
             }

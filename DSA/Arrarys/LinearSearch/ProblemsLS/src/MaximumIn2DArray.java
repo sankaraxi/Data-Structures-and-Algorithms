@@ -10,11 +10,11 @@ public class MaximumIn2DArray {
         System.out.println(Maximum2D(arr));
 
     }
-
+    // to find the maximum value in the 2D array
     static int Maximum2D(int[][] arr) {
-        int max = Integer.MIN_VALUE;
-        for (int[] ints : arr) {
-            for (int element : ints) {
+        int max = Integer.MIN_VALUE; // gives the minimum integer value i.e -2147483648
+        for (int[] ints : arr) { // for each row in array arr
+            for (int element : ints) { // for each element in that particular row
                 if (element > max) {
                     max = element;
                 }

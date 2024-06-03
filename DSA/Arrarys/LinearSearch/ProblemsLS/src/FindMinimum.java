@@ -3,7 +3,7 @@ public class FindMinimum {
         int[] arr = {12, 34, 56, -87, 99, 21, 66, 93};
         System.out.println(minimum(arr));
     }
-
+    // to find the minimum value in an array
     static int minimum(int[] arr) {
         int min = arr[0];
         for (int i = 0; i < arr.length; i++) {

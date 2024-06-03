@@ -14,9 +14,11 @@ public class SearchIn2DArray {
         System.out.println(Arrays.toString(search2DArray(arr,target))); // returns the row and column of the element
     }
 
+    //to find an element in the 2D array
+
     static int search2D(int[][] arr, int target) {
-        for (int row = 0; row < arr.length; row++) {
-            for (int col = 0; col < arr[row].length; col++) {
+        for (int row = 0; row < arr.length; row++) { // for each row in the array
+            for (int col = 0; col < arr[row].length; col++) {// for each column of that particular row
                 if (arr[row][col] == target){
                     System.out.println("element found and the element is "+ arr[row][col]);
                     return arr[row][col];
@@ -24,7 +26,7 @@ public class SearchIn2DArray {
             }
         }
         System.out.println("Element not found");
-        return Integer.MAX_VALUE;
+        return Integer.MAX_VALUE; // returns the maximum integer value if the element is not found
     }
     //function to return the row and column of the element as an array
     static int[] search2DArray(int[][] arr, int target) {
@@ -37,6 +39,6 @@ public class SearchIn2DArray {
             }
         }
         System.out.println("Element not found");
-        return new int[]{-1,-1};
+        return new int[]{-1,-1}; // returns this if the element is not found
     }
 }

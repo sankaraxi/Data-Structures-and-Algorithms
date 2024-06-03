@@ -10,12 +10,13 @@ public class SearchInStrings {
         System.out.println(searchStr(str,target));
         System.out.println(searchStr1(str,target1));
     }
+    // to find a character whether it is present in the given string or not
 
     static boolean searchStr(String str, char target){
         if (str.isEmpty()){
             return false;
         }
-        for (int i = 0; i < str.length(); i++) {
+        for (int i = 0; i < str.length(); i++) {// for each character of the string
             if (target == str.charAt(i)){
                 return true;
             }
@@ -27,7 +28,7 @@ public class SearchInStrings {
         if (str.isEmpty()){
             return false;
         }
-        for (char ch : str.toCharArray()) { //for each loop that converts each characters in the string to an array
+        for (char ch : str.toCharArray()) { //for each loop that converts each character of the string to an array
             if (ch == target){
                 return true;
             }

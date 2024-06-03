@@ -5,6 +5,8 @@ public class SearchInRange {
         System.out.println(LinearSearch(arr,target,3,5));
 
     }
+
+    // to find target element in the given range in the array
     static int LinearSearch(int[] arr, int target,int start,int end){
         //returns -1 if no elements are present in the array
         if (arr.length == 0){
@@ -16,7 +18,7 @@ public class SearchInRange {
                 return index;
             }
         }
-        // this line will be executed if the element is not found in the given array
+        // this line will be executed if the element is not found in the given array / or in the given range
         return -1;
     }
 }

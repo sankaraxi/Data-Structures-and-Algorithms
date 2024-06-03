@@ -30,7 +30,7 @@ public class EvenDigits {
     static int digits(int num) {
         int count = 0;
 
-        if (num <0){
+        if (num <0){ //if the number is negative make it positive
             num = num * -1;
         }
         if (num == 0){
@@ -51,6 +51,6 @@ public class EvenDigits {
         if (num == 0){
             return 1;
         }
-        return (int)(Math.log10(num))+1;
+        return (int)(Math.log10(num))+1; //this gives the number of digits of a number
     }
 }
