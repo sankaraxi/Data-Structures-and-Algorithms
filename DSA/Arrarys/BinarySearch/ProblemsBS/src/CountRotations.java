@@ -44,7 +44,7 @@ public class CountRotations {
                 return mid-1;
             }
 
-            // if the elements at start, mid and end are same the skip the duplicates
+            // if the elements at start, mid and end are same then skip the duplicates
 
             if (arr[start] == arr[mid] && arr[mid] == arr [end]){
                 // skip the duplicates
