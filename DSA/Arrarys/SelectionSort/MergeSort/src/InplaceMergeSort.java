@@ -12,8 +12,8 @@ public class InplaceMergeSort {
         }
         int mid  = (start + end) / 2;
 
-        inplaceMergeSort(arr,start,mid);
-        inplaceMergeSort(arr,mid,end);
+        inplaceMergeSort(arr,start,mid); //left side array
+        inplaceMergeSort(arr,mid,end); //right side array
 
         mergeInplace(arr,start,mid,end);
     }
