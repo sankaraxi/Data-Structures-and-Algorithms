@@ -34,6 +34,7 @@ public class QuickSort {
             }
 
             // now pivot is at correct position, so sort two halves now
+            //recursion is introduced here
             quickSort(arr,low,end);
             quickSort(arr,start,high);
         }
