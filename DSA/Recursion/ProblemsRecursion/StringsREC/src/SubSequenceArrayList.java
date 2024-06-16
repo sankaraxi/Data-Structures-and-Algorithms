@@ -11,10 +11,10 @@ public class SubSequenceArrayList {
     static ArrayList<String> subSequenceReturn(String processed, String unprocessed){
         if(unprocessed.isEmpty()){ // base condition
             ArrayList<String> list = new ArrayList<>();
-            if (processed != ""){ // it is used remove empty string
-                list.add(processed);
-            }
-//            list.add(processed);
+//            if (processed != ""){ // it is used remove empty string
+//                list.add(processed);
+//            }
+            list.add(processed);
             return list;
         }
         char ch = unprocessed.charAt(0);
