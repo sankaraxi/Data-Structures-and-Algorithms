@@ -1,7 +1,7 @@
 import java.util.ArrayList;
 
 public class PhoneNumberLetterCombinations {
-    //amazon question
+    //google question
     //return the letter combinations of the given input digits based on the keypad mobile
     public static void main(String[] args) {
         keyPadCombinations("","12");
