@@ -4,6 +4,7 @@
     <modules>
       <module fileurl="file://$PROJECT_DIR$/Arrarys/Arrarys.iml" filepath="$PROJECT_DIR$/Arrarys/Arrarys.iml" />
       <module fileurl="file://$PROJECT_DIR$/Recursion/ProblemsRecursion/Arrays/Arrays.iml" filepath="$PROJECT_DIR$/Recursion/ProblemsRecursion/Arrays/Arrays.iml" />
+      <module fileurl="file://$PROJECT_DIR$/Backtracking/Backtracking.iml" filepath="$PROJECT_DIR$/Backtracking/Backtracking.iml" />
       <module fileurl="file://$PROJECT_DIR$/Arrarys/BinarySearch/BinarySearch.iml" filepath="$PROJECT_DIR$/Arrarys/BinarySearch/BinarySearch.iml" />
       <module fileurl="file://$PROJECT_DIR$/Arrarys/BubbleSort/BubbleSort.iml" filepath="$PROJECT_DIR$/Arrarys/BubbleSort/BubbleSort.iml" />
       <module fileurl="file://$PROJECT_DIR$/Arrarys/BubbleSortJava/BubbleSortJava.iml" filepath="$PROJECT_DIR$/Arrarys/BubbleSortJava/BubbleSortJava.iml" />
@@ -13,6 +14,7 @@
       <module fileurl="file://$PROJECT_DIR$/Arrarys/InsertionSort/InsertionSort.iml" filepath="$PROJECT_DIR$/Arrarys/InsertionSort/InsertionSort.iml" />
       <module fileurl="file://$PROJECT_DIR$/Arrarys/LinearSearch/LinearSearch.iml" filepath="$PROJECT_DIR$/Arrarys/LinearSearch/LinearSearch.iml" />
       <module fileurl="file://$PROJECT_DIR$/MathForDSA/MathForDSA.iml" filepath="$PROJECT_DIR$/MathForDSA/MathForDSA.iml" />
+      <module fileurl="file://$PROJECT_DIR$/Backtracking/Maze Problems/Maze Problems.iml" filepath="$PROJECT_DIR$/Backtracking/Maze Problems/Maze Problems.iml" />
       <module fileurl="file://$PROJECT_DIR$/Arrarys/MergeSort/MergeSort.iml" filepath="$PROJECT_DIR$/Arrarys/MergeSort/MergeSort.iml" />
       <module fileurl="file://$PROJECT_DIR$/MathForDSA/PartII/PartII.iml" filepath="$PROJECT_DIR$/MathForDSA/PartII/PartII.iml" />
       <module fileurl="file://$PROJECT_DIR$/Recursion/ProblemsRecursion/Patterns/Patterns.iml" filepath="$PROJECT_DIR$/Recursion/ProblemsRecursion/Patterns/Patterns.iml" />
