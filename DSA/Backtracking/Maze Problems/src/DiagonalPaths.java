@@ -1,6 +1,8 @@
 import java.util.ArrayList;
 
 public class DiagonalPaths {
+    //determine the number of possible paths to reach the destination in a maze
+    // given that the user can only move in forward and downward direction and also in diagonal direction
     public static void main(String[] args) {
         System.out.println(printDiagonalPathsArray("",3,3));
     }
