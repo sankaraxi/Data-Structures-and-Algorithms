@@ -16,7 +16,6 @@ public class MazeWithObstacles {
             System.out.print(processed+" ");
             return;
         }
-
         if (!maze[rows][columns]){
             return;
         }
