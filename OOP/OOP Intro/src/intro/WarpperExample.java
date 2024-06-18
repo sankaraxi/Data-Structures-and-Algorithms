@@ -1,3 +1,5 @@
+package intro;
+
 public class WarpperExample {
     public static void main(String[] args) {
 //        int a = 10;
@@ -25,9 +27,9 @@ public class WarpperExample {
 
         System.out.println(obj);
 
-        for (int i = 0; i < 1000000000; i++) {
-            obj = new A("Random name");
-        }
+//        for (int i = 0; i < 1000000000; i++) {
+//            obj = new A("Random name");
+//        }
 
     }
 
