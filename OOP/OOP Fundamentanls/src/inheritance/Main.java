@@ -25,5 +25,11 @@ public class Main {
 
         BoxPrice Box6 = new BoxPrice(4,55,200);
         System.out.println(Box6.length+" "+Box6.height+" "+Box6.width+" "+Box6.weight+" "+Box6.cost);
+
+        Box box = new BoxWeight();
+        Box.greeting(); // you cannot override
+
+        BoxWeight box2 = new BoxWeight();
+        BoxWeight.greeting(); // you can inherit but you cannot override
     }
 }
