@@ -1,4 +1,4 @@
-import java.util.NoSuchElementException;
+package singlyLinkedList;
 
 public class LinkedListNew {
 

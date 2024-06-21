@@ -1,3 +1,5 @@
+package singlyLinkedList;
+
 public class Main {
     public static void main(String[] args) {
         LinkedListNew list = new LinkedListNew();
