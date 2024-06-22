@@ -18,7 +18,7 @@ public class RolColMatrix {
         int r = 0;
         int c = matrix.length-1;
 
-        while (r < matrix.length && c >= 0){
+        while (r <= matrix.length-1 && c >= 0){
             if (matrix[r][c] == target){
                 return new int[] {r,c};
             }

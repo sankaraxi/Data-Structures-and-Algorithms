@@ -7,8 +7,8 @@ public class OrderAgnosticBS {
 
     }
     static int orderAgnosticBS(int[] arr, int target){
-        int start = 0;
-        int end = arr.length-1;
+        int start = 0; //stating index
+        int end = arr.length-1; //ending index of the given array
 
         //find whether the array is sorted in ascending or descending
         boolean isAsc = arr[start] < arr[end]; // assigns true if array is sorted in ascending otherwise false

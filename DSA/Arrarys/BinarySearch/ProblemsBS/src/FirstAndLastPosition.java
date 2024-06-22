@@ -3,8 +3,8 @@ import java.util.Arrays;
 public class FirstAndLastPosition {
     public static void main(String[] args) {
 
-        int[] arr = {1,6,6,6,7,7,7,7,7,7,8,9};
-        int target = 6;
+        int[] arr = {1,6,6,6,7,7,7,7,8,9};
+        int target = 7;
         int[] ans = searchRange(arr,target);
         System.out.println(Arrays.toString(ans));
 

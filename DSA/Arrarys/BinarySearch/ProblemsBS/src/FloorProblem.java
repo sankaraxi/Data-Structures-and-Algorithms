@@ -6,7 +6,7 @@ public class FloorProblem {
         //floor of the number refers to the greatest number that is smaller than or equal to the target in the given array
         int[] arr ={2,3,4,21,22,55,66,78};
 //        int target = 21;
-        int target = 1;
+        int target = 20;
         int[] ans = floorBinarySearch(arr,target);
         System.out.println(Arrays.toString(ans));
     }

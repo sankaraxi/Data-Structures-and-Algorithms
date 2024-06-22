@@ -73,7 +73,7 @@ public class RotatedBinarySearchDuplicates {
             // left side is sorted,so pivot should be in the right side
             else if (arr[start]<arr[mid] || (arr[start]==arr[mid] && arr[mid] > arr[end])){
                 start =mid +1;
-            }else{
+            }else{ // Right side is sorted, so pivot must be in left side
                 end = mid -1;
             }
         }

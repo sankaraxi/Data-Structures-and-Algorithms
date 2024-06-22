@@ -12,8 +12,8 @@ public class NextGreaterChar {
         // to find the the smallest letter that is greater than the target character in the given array
         // also if the target is the greatest character / not exist in the given array then return the smallest letter
 
-        int start = 0;
-        int end = letters.length-1;
+        int start = 0; //starting index
+        int end = letters.length-1; //ending index
 
         while (start <= end){
 //            int mid = (start + end) /2; //this formula may exceeds the integer range if the the values are larger

@@ -2,13 +2,14 @@ public class CountRotations {
     public static void main(String[] args) {
         // to find the number of rotations in the rotated array
         int[] arr = {4,5,6,7,0,1,2,3};
-        System.out.println(findPivot(arr));
+//        int[] arr = {4,5,0,1,2,3};
+//        System.out.println(findPivot(arr));
         int target = 1;
         System.out.println(countRotations(arr,target));
     }
     static int countRotations(int[] arr, int target){
-        int pivot =  findPivot(arr);
-//        int pivot = findPivotWithDuplicates(new int[] {5,5,5,5,7,0,1,2,3,4});
+//        int pivot =  findPivot(arr);
+        int pivot = findPivotWithDuplicates(new int[] {5,5,7,0,1,2,3,4});
         return pivot+1;
     }
     //func to find the pivot: the highest number after which all the consecutive numbers in the array are in ascending order
@@ -60,10 +61,10 @@ public class CountRotations {
                 }
                 end--;
             }
-            // left side is sorted,so pivot should be in the right side
+            // left side is sorted,so pivot must be in right side
             else if (arr[start]<arr[mid] || (arr[start]==arr[mid] && arr[mid] > arr[end])){
                 start =mid +1;
-            }else{
+            }else{ //// Right side is sorted, so pivot must be in left side
                 end = mid -1;
             }
         }

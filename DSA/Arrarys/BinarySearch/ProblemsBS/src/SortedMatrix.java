@@ -1,6 +1,7 @@
 import java.util.Arrays;
 
 public class SortedMatrix {
+    // find the target in the sorted matrix
     public static void main(String[] args) {
 
         int[][] matrix ={

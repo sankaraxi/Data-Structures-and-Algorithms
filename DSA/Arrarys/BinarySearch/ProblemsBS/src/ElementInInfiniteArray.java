@@ -1,6 +1,6 @@
 public class ElementInInfiniteArray {
     public static void main(String[] args) {
-        //to find an element in the infinite array
+        //to find an element in the infinite array (you don't know the length of the array)
         // without using arr.length
         int[] arr = {23,34,56,78,90,100,120,230,456,567,
                 789,900,999,1000,1500,1721};

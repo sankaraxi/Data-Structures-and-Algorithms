@@ -4,9 +4,10 @@ public class CeilingProblem {
     public static void main(String[] args) {
         //to find the ceiling of the target number given in the array
         //ceiling of the number refers to the smallest number that is greater than or equal to the target
-        int[] arr ={1,2,3,4,21,22,55,66,78};
+//        int[] arr ={1,2,3,4,21,22,55,66,78};
+        int[] arr ={1,2,3,19,21,43};
 //        int target = 55;
-        int target = 21;
+        int target = 20;
         int[] ans = ceilingBinarySearch(arr,target);
         System.out.println(Arrays.toString(ans));
     }
@@ -18,8 +19,8 @@ public class CeilingProblem {
             return new int[] {-1, -1};
         }
 
-        int start = 0;
-        int end = arr.length-1;
+        int start = 0; //starting index
+        int end = arr.length-1; //ending index
 
         while (start <= end){
 //            int mid = (start + end) /2; //this formula may exceeds the integer range if the the values are larger
