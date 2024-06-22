@@ -1,11 +1,12 @@
 //leet code question
 public class EvenDigits {
+
     public static void main(String[] args) {
         int[] arr = {12,345,2,6,7896,77,0,0,99};
         System.out.println(findNumbers(arr));
         System.out.println(digits2(0));
     }
-
+    //to return the number of numbers that are of even digits
     static int findNumbers(int[] arr){
         int count = 0;
         for(int num : arr){
