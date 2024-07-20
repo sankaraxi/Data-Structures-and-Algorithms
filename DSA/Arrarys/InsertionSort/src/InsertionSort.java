@@ -8,7 +8,7 @@ public class InsertionSort {
     }
     static void insertionSort(int[] arr){
         for (int i = 0; i < arr.length-1; i++) { // <=arr.length-2
-            for (int j = i+1; j >0 ; j--) {
+            for (int j = i+1; j >0 ; j--) { //compare from current index+1 to first
                 if(arr[j]<arr[j-1]){
                         swap(arr,j,j-1);
                 }else{
