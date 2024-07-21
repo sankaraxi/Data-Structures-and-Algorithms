@@ -53,49 +53,5 @@ public class MergeSort {
     }
 
 }
-//http://www.geeksforgeeks.org/problems/merge-sort/1?utm_source=youtube&utm_medium=collab_striver_ytdescription&utm_campaign=merge-sort
 
-//class Solution
-//{
-//    void merge(int arr[], int l, int m, int r)
-//    {
-//        // Your code here
-//        int temp[] = new int[r-l+1];
-//        int i = l;
-//        int j = m+1;
-//        int k = 0;
-//        while(i<=m && j<=r){
-//            if(arr[i]<arr[j]){
-//                temp[k]=arr[i];
-//                i++;
-//            }
-//            else{
-//                temp[k]=arr[j];
-//                j++;
-//            }
-//            k++;
-//        }
-//        while(i<=m){
-//            temp[k]=arr[i];
-//            k++;
-//            i++;
-//        }
-//        while(j<=r){
-//            temp[k]=arr[j];
-//            k++;
-//            j++;
-//        }
-//        for(k=0,i=l;k<temp.length;k++,i++){
-//            arr[i]=temp[k];
-//        }
-//    }
-//    void mergeSort(int arr[], int l, int r)
-//    {
-//        //code here
-//        if(l>=r) return;
-//        int m = l+(r-l)/2;
-//        mergeSort(arr,l,m);
-//        mergeSort(arr,m+1,r);
-//        merge(arr,l,m,r);
-//    }
-//}
+
