@@ -1,7 +1,10 @@
 public class BinarySearch {
     public static void main(String[] args) {
-        int[] arr ={1,2,3,4,21,55,66,78};
-        int target = 21;
+//        int[] arr ={1,2,3,4,21,55,66,78};
+
+        int[] arr ={1,2,3,4,5};
+//        int target = 21;
+        int target = 4;
         int ans = binarySearch(arr,target);
         System.out.println(ans);
 
