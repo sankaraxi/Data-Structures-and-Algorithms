@@ -3,7 +3,7 @@ import java.util.Stack;
 //https://leetcode.com/problems/implement-queue-using-stacks/
 
 // Implemantation of Queue using Stack
-//Minimal approach
+//Minimal approach using Stack
 public class ImpleOfQueueUsingStack {
     public static void main(String[] args) {
 
